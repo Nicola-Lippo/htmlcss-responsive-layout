@@ -21,6 +21,10 @@
    justify-content: space-between;
 }
 
+.t-centro {
+    text-align: center;
+}
+
 /******
  CSS HEADER 
  ******/
@@ -81,37 +85,75 @@ header .container nav ul li {
     margin: 20px;
 }
 
+#jumbotron img {
+    width: 100%;
+}
+
 /* PIANI STRATEGICI */
 
 #strategic-plane {
     background-color: rgb(138, 108, 183);
+    color: white;
 }
 
 #strategic-plane .col {
-    background-color: rgb(255, 255, 255);
     margin-bottom: 1rem;
     border-radius: 15px;
 }
 
-#strategic-plane .col-sx {
-    height: 200px;
+#strategic-plane .col-dx {
+    background-color: rgb(255, 255, 255);
+}
+
+#strategic-plane img {
+    width: 100%;
+}
+
+#strategic-plane h2 {
+    padding: 20px 0;
 }
 
 #strategic-plane .col-dx {
-    height: 150px;
+    color: black;
 }
 
-/* TESTIMONIAL */
+.bot-strategici {
+    background-color: rgb(138, 108, 183);
+}
+
+/* TESTIMONIALS */
 
 #testimonials h2 {
     text-align: center;
+    padding: 30px;
+}
+
+#testimonials .col-vuota {
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    color: black;
 }
 
 #testimonials .col {
     background-color: rgb(138, 108, 183);
     margin-bottom: 1rem;
-    height: 200px;
     border-radius: 15px;
+    color: white;
+}
+
+#testimonials img {
+    width: 50%;
+    border-radius: 100%;
+}
+
+#testimonials p {
+    padding: 15px;
+}
+
+.titolo-test {
+    color: rgb(138, 108, 183) ;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 /* WORKING */
@@ -123,14 +165,37 @@ header .container nav ul li {
 #working h2 {
     color: white;
     text-align: center;
+    padding: 20px;
 }
 
 #working .col {
     background-color: rgb(255, 255, 255);
     margin-bottom: 1rem;
-    height: 200px;
     border-radius: 15px;
+    color: rgb(138, 108, 183);
 }
+
+.n-work {
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.t-work {
+    font-size: 30px;
+}
+
+.t-p {
+    padding: 20px 0;
+    color: black;
+}
+
+.t-bottone {
+    color: white;
+    background-color: rgb(138, 108, 183);
+    border-radius: 20px;
+}
+
+
 
 /* ABOUT */
 
@@ -194,6 +259,9 @@ header .container nav ul li {
     #jumbotron .col-special {
         width: calc((100% / 3) * 2 - 30px);
     }
+
+    /* TESTIMONIALS */    
+
 
     /* WORKING */
 
