@@ -3,3 +3,68 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contenuto {
+    padding: 1rem;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.sp-bet {
+   justify-content: space-between;
+}
+
+/******
+ CSS HEADER 
+ ******/
+header {
+    background-color: blue;
+    color: white;
+}
+
+header .container nav ul li {
+    display: none;
+    padding: 0 1rem;
+}
+
+
+/******
+ CSS MAIN 
+ ******/
+
+/* JUMBOTRON */
+
+/* PIANI STRATEGICI */
+
+/* TESTIMONIAL */
+
+/* WORKING */
+
+/* ABOUT */
+
+/* GET START */
+
+
+/******
+ MEDIA PC
+ ******/
+
+ @media screen and (min-width:1060px) {
+    header .container nav ul li {
+        display:inline-block
+    }
+
+    #header-menu {
+        display: none;
+    }
+    
+ }
+
+
