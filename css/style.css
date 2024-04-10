@@ -41,7 +41,7 @@ header .container nav ul li {
 
 /* JUMBOTRON */
 
-#jumbotron .container .contenuto .col {
+#jumbotron .col {
     background-color: aqua;
     margin-bottom: 1rem;
     height: 200px;
@@ -49,6 +49,24 @@ header .container nav ul li {
 }
 
 /* PIANI STRATEGICI */
+
+#strategic-plane {
+    background-color: rgb(146, 78, 174);
+}
+
+#strategic-plane .col {
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+
+#strategic-plane .col-sx {
+    height: 200px;
+}
+
+#strategic-plane .col-dx {
+    height: 150px;
+}
 
 /* TESTIMONIAL */
 
@@ -87,6 +105,9 @@ header .container nav ul li {
  }
 
  @media screen and (min-width:992px) {
+
+    /* HEADER */
+
     header .container nav ul li {
         display:inline-block
     }
@@ -94,7 +115,22 @@ header .container nav ul li {
     #header-menu {
         display: none;
     }
+
+    /* PIANI STRATEGICI */
     
+    #strategic-plane .riga {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    #strategic-plane .col {
+        width: calc(100% / 2);        
+    }
+
+    #strategic-plane .col-dx {
+        align-self: flex-end;        
+    }
  }
 
 
