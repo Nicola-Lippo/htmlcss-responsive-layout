@@ -87,6 +87,7 @@ header .container nav ul li {
 
 #jumbotron img {
     width: 100%;
+    max-width: 250px;
 }
 
 /* PIANI STRATEGICI */
@@ -101,12 +102,12 @@ header .container nav ul li {
     border-radius: 15px;
 }
 
-#strategic-plane .col-dx {
+#strategic-plane .col-dx .contenuto {
     background-color: rgb(255, 255, 255);
 }
 
 #strategic-plane img {
-    width: 100%;
+    max-width: 100%;
 }
 
 #strategic-plane h2 {
@@ -144,6 +145,9 @@ header .container nav ul li {
 #testimonials img {
     width: 50%;
     border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 #testimonials p {
@@ -193,32 +197,48 @@ header .container nav ul li {
     color: white;
     background-color: rgb(138, 108, 183);
     border-radius: 20px;
+    padding: 10px;
+    width: 55px;
 }
 
 
 
 /* ABOUT */
 
+#about h2 {
+    color: rgb(138, 108, 183);
+    font-size: 30px;
+    padding: 10px;
+}
+
+#about p {
+    padding: 20px 0;
+}
+
+#about img {
+    width: 50%;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
 #about .col {
-    background-color: rgb(255, 0, 0);
     margin-bottom: 1rem;
     border-radius: 15px;
 }
 
-#about .col-sx {
-    height: 300px;
-}
-
-#about .col-dx {
-    height: 150px;
-}
-
 /* GET START */
 
+#get-start {
+    background-color: rgb(138, 108, 183);
+}
+
 #get-start .col {
-    background-color: rgb(255, 0, 0);
-    border-radius: 15px;
-    height: 200px;
+    text-align: center;
+    font-size: 100px;
+    color: gold;
+    padding: 30px;
 }
 
 /******
@@ -230,8 +250,8 @@ header .container nav ul li {
  }
 
  footer .col {
-    background-color: rgb(255, 0, 0);
-    height: 150px;
+    text-align: center;
+    color: white;
 }
 
 
@@ -260,7 +280,11 @@ header .container nav ul li {
         width: calc((100% / 3) * 2 - 30px);
     }
 
-    /* TESTIMONIALS */    
+    /* TESTIMONIALS */  
+    
+    #testimonials .col .contenuto {
+        display: flex;
+    }
 
 
     /* WORKING */
@@ -309,6 +333,12 @@ header .container nav ul li {
     #header-menu {
         display: none;
     }
+
+    /* JUMBOTRON */
+
+    #jumbotron .col-special .contenuto {
+        display: flex;
+    }    
 
     /* PIANI STRATEGICI */
     
