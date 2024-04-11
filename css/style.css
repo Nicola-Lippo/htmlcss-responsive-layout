@@ -104,6 +104,7 @@ header .container nav ul li {
 
 #strategic-plane .col-dx .contenuto {
     background-color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 #strategic-plane img {
@@ -120,6 +121,7 @@ header .container nav ul li {
 
 .bot-strategici {
     background-color: rgb(138, 108, 183);
+    margin: 20px 0;
 }
 
 /* TESTIMONIALS */
@@ -284,6 +286,7 @@ header .container nav ul li {
     
     #testimonials .col .contenuto {
         display: flex;
+        align-items: center;
     }
 
 
@@ -354,8 +357,16 @@ header .container nav ul li {
         margin-right: 15px;        
     }
 
+    #strategic-plane .col-sx img {
+        padding-bottom: 50px;       
+    }
+
     #strategic-plane .col-dx {
-        align-self: flex-end;        
+        align-self: flex-end;       
+    }
+
+    #strategic-plane .col-dx img {
+        width: 300px;        
     }
 
     /* WORKING */
